@@ -1,0 +1,15 @@
+__pycache__/
+internal/__pycache__/
+gridencoder/__pycache__/
+gridencoder/build/
+.DS_Store
+.vscode/
+.idea/
+__MACOSX/
+exp/
+data/
+*.mp4
+*.ply
+scripts/__*
+__*/
+*.egg-info

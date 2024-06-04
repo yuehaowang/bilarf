@@ -2,7 +2,7 @@
 
 This repository contains the code release for SIGGRAPH (TOG) 2024 paper: "Bilateral Guided Radiance Field Processing" by Yuehao Wang, Chaoyi Wang, Bingchen Gong, and Tianfan Xue.
 
-**[Project Page](https://bilarfpro.github.io/) / [Arxiv]() / [Data](https://huggingface.co/datasets/Yuehao/bilarf_data)**
+**[Project Page](https://bilarfpro.github.io/) / [Arxiv](https://arxiv.org/abs/2406.00448) / [Data](https://huggingface.co/datasets/Yuehao/bilarf_data)**
 
 
 ![teaser](https://github.com/yuehaowang/bilarf/assets/6317569/2d7770a4-c7e8-4986-888d-d84984b45450)

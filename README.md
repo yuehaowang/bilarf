@@ -211,8 +211,12 @@ This will make 'render.py' reload the model with an optimized 4D bilateral grid 
 @article{wang2024bilateral,
     title={Bilateral Guided Radiance Field Processing},
     author={Wang, Yuehao and Wang, Chaoyi and Gong, Bingchen and Xue, Tianfan},
-    journal={Arxiv},
-    year={2024}
+    journal={ACM Transactions on Graphics (TOG)},
+    volume={43},
+    number={4},
+    pages={1--13},
+    year={2024},
+    publisher={ACM New York, NY, USA}
 }
 ```
 

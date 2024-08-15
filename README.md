@@ -68,7 +68,7 @@ This dataset contains our own captured nighttime scenes, synthetic data generate
 [![BilaRF Dataset on HF](https://img.shields.io/badge/Dataset-BilaRF-FFD21E?style=for-the-badge&logo=huggingface
 )](https://huggingface.co/datasets/Yuehao/bilarf_data)
 
-The dataset follows the file structure of [NeRF LLFF data](https://drive.google.com/drive/folders/14boI-o5hGO9srnWaaogTU5_ji7wkX2S7) (forward-facing scenes). In addition, the editing samples are stored in the 'edits/' directory. We also provide 'ext_metadata.json' that can offer info about scenes. The data loader in this codebase currently supports the following two fields:
+The dataset follows the file structure of [NeRF LLFF data](https://drive.google.com/drive/folders/14boI-o5hGO9srnWaaogTU5_ji7wkX2S7) (forward-facing scenes). In addition, the editing samples are stored in the 'edits/' directory. The filename of each editing is formatted in 'edit`X`\_color\_`split-name`\_`index`.png', where `split-name` could be 'train', 'test', 'all', or 'path', and `index` is the camera index in the split. We also provide 'ext_metadata.json' that can offer info about scenes. The data loader in this codebase currently supports the following two fields:
 ```js
 {
       /** The `spiral_radius_scale` field specifies the radius of spiral camera path to

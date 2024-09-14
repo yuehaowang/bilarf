@@ -8,6 +8,9 @@ This repository contains the code release for SIGGRAPH (TOG) 2024 paper: "Bilate
 ![teaser](https://github.com/yuehaowang/bilarf/assets/6317569/2d7770a4-c7e8-4986-888d-d84984b45450)
 
 
+### [:star2: Bilateral guided NeRF/3DGS is available in nerfstudio!](https://github.com/nerfstudio-project/nerfstudio/releases/tag/v1.1.4)
+
+
 ## lib_bilagrid.py
 
 Hesitate to use this "multinerf-derived" codebase? No worries! Our method is supposed to plug and play for various NeRF backbones. We assemble all the essential code related to 3D/4D bilateral grids in a single [lib_bilagrid.py](lib_bilagrid.py). You can download this file and import it into your codebase. The essential dependencies to install are PyTorch, Numpy, and [tensorly](https://github.com/tensorly/tensorly).
